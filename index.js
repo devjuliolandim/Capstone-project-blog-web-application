@@ -10,6 +10,10 @@ app.get("/", (req,res)=>{
     res.render("index.ejs");
 });
 
+app.get("/backend", (req,res)=>{
+    res.render("backend.ejs");
+})
+
 app.listen(port, ()=>{
     console.log(`The server is running in the port ${port}`);
 });

@@ -27,6 +27,8 @@ header{
     color: white;
     margin-bottom: 20px;
     font-family: "Playfair Display", sans-serif;
+
+    padding: 20px;
 }
 
 hr{
@@ -59,6 +61,18 @@ a:hover{
     text-decoration: underline;
 }
 
+ul{
+    margin: auto;
+    margin-top: 10px;
+    width: 85%;
+}
+
+li{
+    color: white;
+    text-align: justify;
+    margin-top: 20px;
+}
+
 .basic-container{
     margin: auto;
     width: 85%;
@@ -84,24 +98,24 @@ a:hover{
     text-align: justify;
 }
 
-.backend{
+.infos{
     background-color: #343a40;
 }
 
-.backend > h2{
+.infos > h2{
     padding-bottom: 0px;
 }
 
-.backend > *{
+.infos > *{
     margin-left: 20px;
 }
 
-.backend a{
+.infos a{
     text-decoration: underline;
     color: blue;
     font-size: 1.1rem;
 }
 
-.backend span{
+.infos span{
     padding-top: 0px;
 }
