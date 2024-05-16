@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    background-color: #343a40;
+}
+
+h2{
+    font-family: "Playfair Display", sans-serif;
+    color: white;
+}
+
+h3{
+    font-family: "Playfair Display", sans-serif;
+    color: white;
+    margin-top: 20px;
+}
+
+header{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", sans-serif;
+}
+
+hr{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+span{
+    color: gray;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+   font-weight: 200;
+   font-size: 1.5rem;
+   
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.basic-container{
+    margin: auto;
+    width: 85%;
+    background-color: rgba(128, 128, 128, 0.132);
+    border-radius: 20px;
+}
+
+.basic-container > h2{
+    font-family: "Playfair Display";
+    color: white;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 60%;
+    font-size: 1.8rem;
+}
+
+.basic-container > p{
+    width: 60%;
+    color: white;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.backend{
+    background-color: #343a40;
+}
+
+.backend > h2{
+    padding-bottom: 0px;
+}
+
+.backend > *{
+    margin-left: 20px;
+}
+
+.backend a{
+    text-decoration: underline;
+    color: blue;
+    font-size: 1.1rem;
+}
+
+.backend span{
+    padding-top: 0px;
+}
