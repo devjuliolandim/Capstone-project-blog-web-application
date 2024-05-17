@@ -9,6 +9,7 @@
     --white: #fff;
     --background: #343a40;
     --container: rgba(128, 128, 128, 0.132);
+    --playfair: "Playfair Display", sans-serif;
 }
 
 html{
@@ -16,12 +17,12 @@ html{
 }
 
 h2{
-    font-family: "Playfair Display", sans-serif;
+    font-family: var(--playfair);
     color: var(--white);
 }
 
 h3{
-    font-family: "Playfair Display", sans-serif;
+    font-family: var(--playfair);
     color: var(--white);
     margin-top: 20px;
 }
@@ -32,7 +33,7 @@ header{
     font-weight: bolder;
     color: var(--white);
     margin-bottom: 20px;
-    font-family: "Playfair Display", sans-serif;
+    font-family: var(--playfair);
 
     padding: 20px;
 }
@@ -77,6 +78,7 @@ li{
     color: var(--white);
     text-align: justify;
     margin-top: 20px;
+    width: 75%;
 }
 
 .basic-container{
@@ -87,7 +89,7 @@ li{
 }
 
 .basic-container > h2{
-    font-family: "Playfair Display";
+    font-family: var(--playfair);
     color: var(--white);
     margin: 20px;
     padding-top: 20px;
@@ -97,7 +99,7 @@ li{
 }
 
 .basic-container  p{
-    width: 60%;
+    width: 70%;
     color: var(--white);
     padding-bottom: 10px;
     margin-top: 20px;
@@ -136,8 +138,8 @@ li{
 .pic{
     background-color: var(--container);
     
-    width: 185px;
-    height: 260px;
+    width: 195px;
+    
    
     margin-top: 20px;
     margin-bottom: 20px;
@@ -145,9 +147,38 @@ li{
     border-radius: 20px;
 
     padding: 10px;
+
+    color: white;
+    text-align: center;
 }
 
 .pic> img{
     width: 100%;
     border-radius: 20px;
+}
+
+.pic a{
+    font-family: var(--playfair);
+    text-decoration: none;
+    color: var(--white);
+}
+
+.pic a:hover{
+    text-decoration: underline;
+}
+
+.pic p{
+    margin: 5px;
+    padding: 0;
+    font-family: var(--playfair);
+    font-weight: 700;
+    text-align: left;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.pic span{
+    color: white;
+    font-weight: 200;
+    font-family: var(--playfair);
 }
