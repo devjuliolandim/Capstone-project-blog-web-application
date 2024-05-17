@@ -22,6 +22,10 @@ app.get("/java", (req,res)=>{
     res.render("java.ejs");
 });
 
+app.get("/html", (req,res)=>{
+    res.render("html.ejs");
+});
+
 app.listen(port, ()=>{
     console.log(`The server is running in the port ${port}`);
 });
