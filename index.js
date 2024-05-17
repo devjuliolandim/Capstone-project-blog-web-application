@@ -18,6 +18,10 @@ app.get("/c", (req,res)=>{
     res.render("c.ejs");
 });
 
+app.get("/java", (req,res)=>{
+    res.render("java.ejs");
+});
+
 app.listen(port, ()=>{
     console.log(`The server is running in the port ${port}`);
 });
