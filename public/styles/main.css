@@ -7,7 +7,8 @@
 
 :root{
     --white: #fff;
-    --background: #343a40;
+    /*#343A40 previous background*/
+    --background: #22262a;
     --container: rgba(128, 128, 128, 0.132);
     --playfair: "Playfair Display", sans-serif;
 }
@@ -24,7 +25,9 @@ h2{
 h3{
     font-family: var(--playfair);
     color: var(--white);
-    margin-top: 20px;
+    margin-top: 40px;
+    font-size: 2rem;
+    font-weight: 900;
 }
 
 header{
@@ -41,7 +44,7 @@ header{
 hr{
     width: 80%;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 span{
@@ -181,4 +184,39 @@ li{
     color: white;
     font-weight: 200;
     font-family: var(--playfair);
+}
+
+.code{
+    width: 55%;
+   
+    margin-top: 30px;
+
+    border-radius: 20px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.code-header{
+    background-color: var(--container);
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    padding: 10px;
+}
+
+.code-itself{
+    background-color: black;
+    padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.code-itself code{
+    font-family: 'Courier New', Courier, monospace !important;
+    color: white;
+    
+}
+
+.code-itself pre{
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
