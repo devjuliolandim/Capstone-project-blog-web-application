@@ -5,18 +5,22 @@
     font-family: "Poppins", sans-serif;
 }
 
+:root{
+    --white: #fff;
+}
+
 html{
     background-color: #343a40;
 }
 
 h2{
     font-family: "Playfair Display", sans-serif;
-    color: white;
+    color: var(--white);
 }
 
 h3{
     font-family: "Playfair Display", sans-serif;
-    color: white;
+    color: var(--white);
     margin-top: 20px;
 }
 
@@ -24,7 +28,7 @@ header{
     text-align: center;
     font-size: 3rem;
     font-weight: bolder;
-    color: white;
+    color: var(--white);
     margin-bottom: 20px;
     font-family: "Playfair Display", sans-serif;
 
@@ -51,7 +55,7 @@ nav{
 
 a{
    text-decoration: none;
-   color: white;
+   color: var(--white);
    font-weight: 200;
    font-size: 1.5rem;
    
@@ -68,7 +72,7 @@ ul{
 }
 
 li{
-    color: white;
+    color: var(--white);
     text-align: justify;
     margin-top: 20px;
 }
@@ -82,7 +86,7 @@ li{
 
 .basic-container > h2{
     font-family: "Playfair Display";
-    color: white;
+    color: var(--white);
     margin: 20px;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -90,9 +94,9 @@ li{
     font-size: 1.8rem;
 }
 
-.basic-container > p{
+.basic-container  p{
     width: 60%;
-    color: white;
+    color: var(--white);
     padding-bottom: 10px;
     margin-top: 20px;
     text-align: justify;
@@ -118,4 +122,18 @@ li{
 
 .infos span{
     padding-top: 0px;
+}
+
+.p-photo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.p-photo > img{
+    height: 150px;
+}
+
+.pic-container{
+    color: white;
 }

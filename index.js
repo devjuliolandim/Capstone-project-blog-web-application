@@ -12,7 +12,11 @@ app.get("/", (req,res)=>{
 
 app.get("/backend", (req,res)=>{
     res.render("backend.ejs");
-})
+});
+
+app.get("/c", (req,res)=>{
+    res.render("c.ejs");
+});
 
 app.listen(port, ()=>{
     console.log(`The server is running in the port ${port}`);
